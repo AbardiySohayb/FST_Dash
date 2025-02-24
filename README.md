@@ -3,7 +3,7 @@
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/flatlogic/react-material-admin.git
+   git clone https://github.com/AbardiySohayb/FST_Dash.git
    cd react-material-admin
    ```
 2. **Install dependencies**
