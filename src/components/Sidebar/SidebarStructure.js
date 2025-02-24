@@ -10,13 +10,18 @@ import {
   Map as MapIcon,
   Apps as CoreIcon,
   Description as DescriptionIcon,
-  ShoppingCart as ShoppingCartIcon,
+ 
   StarBorder as ExtraIcon,
   AddCircle as AddSectionIcon,
   FolderOpen as FolderIcon,
   Description as DocumentationIcon,
   Person as PersonIcon,
-  AccountCircle as ProfileIcon
+  AccountCircle as ProfileIcon,
+  Security as SecurityIcon,
+  Schedule as ScheduleIcon,
+  BusinessCenter as BusinessCenterIcon,
+  Class as ClassIcon,
+  AttachMoney as AttachMoneyIcon
 } from '@mui/icons-material';
 import ChatIcon from '@mui/icons-material/Chat';
 import ViewCompactRoundedIcon from '@mui/icons-material/ViewCompactRounded';
@@ -27,7 +32,7 @@ import Dot from './components/Dot';
 const structure = [
   { id: 100, label: 'Profile', link: '/app/profile', icon: <ProfileIcon /> },
   { id: 0, label: 'Dashboard', link: '/app/dashboard', icon: <HomeIcon /> },
-  {
+  /*{
     id: 1,
     label: 'E-commerce',
     badge: 'NodeJS',
@@ -48,7 +53,12 @@ const structure = [
         link: '/app/ecommerce/product',
       },
     ],
-  },
+  },*/
+  { id: 30, label: 'Sécurité', link: '/app/securite', icon: <SecurityIcon /> },
+  { id: 31, label: 'Exam & Planing', link: '/app/ExamPlaning', icon: <ScheduleIcon /> },
+  { id: 32, label: 'Stage', link: '/app/Stage', icon: <BusinessCenterIcon /> },
+  { id: 33, label: 'Concours', link: '/app/Concours', icon: <ClassIcon /> },
+  { id: 34, label: 'Achats', link: '/app/Achats', icon: <AttachMoneyIcon/> },
   {
     id: 2,
     label: 'User',
